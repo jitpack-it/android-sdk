@@ -57,11 +57,11 @@ android {
                 release(MavenPublication) {
                     from components.release
                     artifact androidSourcesJar
-                    groupId = 'cloud.mindbox'
-                    artifactId = 'mobile-sdk'
+                    groupId = 'com.umbrelait'
+                    artifactId = 'sdk-test'
                     version = SDK_VERSION_NAME
                     pom {
-                        name = 'Mindbox Android SDK'
+                        name = 'test-mul-sdk'
                         description = 'Test release'
                         url = 'https://github.com/mindbox-moscow/android-sdk'
                         licenses {
